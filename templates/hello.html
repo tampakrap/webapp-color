@@ -1,14 +1,14 @@
 <!doctype html>
-<title>Hello from Flask</title>
-<body style="background: {{ color }};"></body>
-<div style="color: #e4e4e4;
+<title>Hello from Cousin</title>
+<body style="background: {{ bg_color }};"></body>
+<div style="color: {{ text_color }};
     text-align:  center;
     height: 90px;
     vertical-align:  middle;">
 {% if name %}
-  <h1>Hello from {{ name }}!</h1>
+  <h1>Hello Backend Weekly from {{ name }}!</h1>
 {% else %}
-  <h1>Hello, World!</h1>
+  <h1>Hello Backend Weekly!</h1>
 {% endif %}
 
   {% if contents %}
